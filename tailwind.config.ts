@@ -6,6 +6,14 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {},
+    screens: {
+      sm: "640px", // Small devices
+      md: "768px", // Medium devices (Tablets)
+      lg: "1024px", // Large devices (Laptops)
+      xl: "1280px", // Extra-large devices
+    },
+  },
   plugins: [],
 } satisfies Config;
