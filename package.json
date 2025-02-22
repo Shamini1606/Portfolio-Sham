@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@next/bundle-analyzer": "^15.1.0",
     "aos": "^3.0.0-beta.6",
     "next": "15.1.0",
@@ -17,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
     "react-multi-carousel": "^2.8.5",
-    "react-parallax-tilt": "^1.7.268"
+    "react-parallax-tilt": "^1.7.268",
+    "react-toastify": "^11.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

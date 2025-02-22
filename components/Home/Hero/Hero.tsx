@@ -41,8 +41,45 @@ const Hero = () => {
               className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
             transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center sp-x-2"
             >
-              <span>Download CV</span>
+              <a
+                href="/Shamini-SE.pdf"
+                download="Shamini-SE-CV.pdf"
+                className="flex items-center space-x-2"
+              >
+                <span>Download SE CV</span>
+
+                <FaDownload />
+              </a>
+            </button>
+            <button
+              data-aos="fade-zoom-in"
+              data-aos-delay="300"
+              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
+            transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center sp-x-2"
+            >
+              <a
+                href="/Shamini-QA.pdf"
+                download="Shamini-QA-CV.pdf"
+                className="flex items-center space-x-2"
+              >
+              <span>Download QA CV</span>
               <FaDownload />
+              </a>
+            </button>
+            <button
+              data-aos="fade-zoom-in"
+              data-aos-delay="300"
+              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
+            transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center sp-x-2"
+            >
+              <a
+                href="/Shamini-BA.pdf"
+                download="Shamini-BA-CV.pdf"
+                className="flex items-center space-x-2"
+              >
+              <span>Download BA CV</span>
+              <FaDownload />
+              </a>
             </button>
           </div>
           {/* Image Content */}

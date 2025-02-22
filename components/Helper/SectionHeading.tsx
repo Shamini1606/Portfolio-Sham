@@ -1,6 +1,7 @@
 //  time 1.12.32
 
-import { Props } from "next/script";
+// import { Props as ScriptProps } from "next/script";
+import { ScriptProps } from "next/script";
 import React, { ReactNode } from "react";
 
 // define props type

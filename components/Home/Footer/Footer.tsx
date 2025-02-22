@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <p className="text-white text-opacity-60 mt-6 text-center">
         {" "}
-        2024 All Rights Reserved by sham.
+        ©️ 2024 All Rights Reserved by sham.
       </p>
     </div>
   );
